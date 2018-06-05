@@ -1,0 +1,31 @@
+language: go
+
+go:
+  - master # This uses automatically the latest version of go
+
+addons:
+  apt:
+    packages:
+      - python-pygments # Install the apt prerequisites
+
+install:
+  - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+
+  - rm -rf public || exit 0 # Clean and don't fail
+
+script:
+  - hugo # This commands builds your website on travis
+
+  - echo 'www.mariopardo.co' > public/CNAME
+
+# Deploy to GitHub pages
+deploy:
+  local_dir: public # Default static site output dir for Hugo
+  target_branch: gh-pages # GitHub pages branch to deploy to (in other cases it can be gh-pages)
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  email: marioapardo@gmail.com
+  name: Mario Pardo
+  on:
+    branch: hugo
