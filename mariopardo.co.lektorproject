@@ -1,8 +1,0 @@
-[project]
-name = mariopardo.co
-
-[servers.ghpages]
-target = ghpages+https://darkadan/mariopardo.co?cname=www.mariopardo.co
-
-[servers.dev]
-target = ghpages://darkadan/mariopardo.co?cname=www.mariopardo.co
