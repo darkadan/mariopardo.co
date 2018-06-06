@@ -3,18 +3,13 @@ language: go
 go:
   - master # This uses automatically the latest version of go
 
-addons:
-  apt:
-    packages:
-      - python-pygments # Install the apt prerequisites
-
 install:
   # - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
-  # - go get github.com/magefile/mage
-  # - go get -d github.com/gohugoio/hugo
-  # - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
-  # - mage install
-  # - mage vendor
+  - go get github.com/magefile/mage
+  - go get -d github.com/gohugoio/hugo
+  - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  - mage install
+  - mage vendor
   - rm -rf public || exit 0 # Clean and don't fail
 
 script:
