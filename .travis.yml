@@ -9,13 +9,16 @@ addons:
       - python-pygments # Install the apt prerequisites
 
 install:
-  - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
-
+  # - go get github.com/gohugoio/hugo # This provides the latest version of Hugo to Travis CI
+  # - go get github.com/magefile/mage
+  # - go get -d github.com/gohugoio/hugo
+  # - cd ${GOPATH:-$HOME/go}/src/github.com/gohugoio/hugo
+  # - mage install
+  # - mage vendor
   - rm -rf public || exit 0 # Clean and don't fail
 
 script:
-  - hugo # This commands builds your website on travis
-
+  - binaries/hugo # This commands builds your website on travis
   - echo 'www.mariopardo.co' > public/CNAME
 
 # Deploy to GitHub pages
