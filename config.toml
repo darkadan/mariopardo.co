@@ -1,7 +1,7 @@
 baseURL             = "https://www.mariopardo.co/"
 languageCode        = "en-us"
 title               = "Mario Pardo"
-theme               = "bilberry"
+theme               = "minimal"
 googleAnalytics      = ""
 
 [params]
