@@ -1,7 +1,7 @@
 baseURL             = "https://www.mariopardo.co/"
 languageCode        = "en-us"
 title               = "Mario Pardo"
-theme               = "bilberry"
+theme               = "minimal"
 googleAnalytics      = ""
 
 [params]
@@ -70,7 +70,7 @@ weight              = 2
 
 [[menu.icon]]
 name                = "twitter"
-url                 = "https://twitter.com/marioapardo0/"
+url                 = "https://twitter.com/marioapardo0"
 weight              = 3
 
 [[menu.icon]]
