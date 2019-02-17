@@ -48,12 +48,12 @@ blog = "blog/:year/:month/:day/:title/"
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/darkadan/"
+    url = "https://github.com/marioapardo/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
     weight = 2
-    url = "https://gitlab.com/darkadan/"
+    url = "https://gitlab.com/marioapardo/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
