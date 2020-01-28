@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://www.mariopardo.co/es/sitemap.xml</loc>
+		
+	   	<lastmod>2018-06-05T15:11:38-05:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://www.mariopardo.co/en/sitemap.xml</loc>
+		
+	   	<lastmod>2018-06-05T15:11:38-05:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://www.mariopardo.co/fr/sitemap.xml</loc>
+		
+	   	<lastmod>2018-01-27T12:57:00-05:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

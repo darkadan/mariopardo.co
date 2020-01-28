@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mario Pardo</title>
+    <link>https://www.mariopardo.co/fr/</link>
+    <description>Recent content on Mario Pardo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jan 2018 12:57:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.mariopardo.co/fr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>https://www.mariopardo.co/fr/contact/</link>
+      <pubDate>Sat, 27 Jan 2018 12:57:00 -0500</pubDate>
+      
+      <guid>https://www.mariopardo.co/fr/contact/</guid>
+      <description>Name: Email: Message: 
+ </description>
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://www.mariopardo.co/fr/privacy/</link>
+      <pubDate>Mon, 01 Jan 2018 14:16:00 -0500</pubDate>
+      
+      <guid>https://www.mariopardo.co/fr/privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://www.mariopardo.co/fr/about/</link>
+      <pubDate>Mon, 14 Aug 2017 21:51:00 -0500</pubDate>
+      
+      <guid>https://www.mariopardo.co/fr/about/</guid>
+      <description>otto</description>
+    </item>
+    
+  </channel>
+</rss>
